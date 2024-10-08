@@ -7,7 +7,7 @@ date: 2023-04-18
 img: escape.png
 thumbnail: escape-thumbnail.png
 alt: image-alt
-client: Check it out!
+friends: Friends
 project-date: April 2023
 category: Natural Language Processing (NLP)
 description: This project involved scraping the script of friends from HTML and XML using R, transformations, cleansing and then performing statistical tests, and analysis on the script to determine specific answers to questions. One of the key analyses was to demonstrate the hypothesis of having racial content that objectifies women, in general, using data. Scientific annotations like sentiment analysis, frequency and verbosity were also demonstrated in its findings. Check out the project - https://rpubs.com/vivekpandya501/friends_text_analysis
