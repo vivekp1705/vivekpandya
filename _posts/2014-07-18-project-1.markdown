@@ -1,15 +1,15 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Clustering Analysis
+subtitle: Visualized the client portfolio of a consulting company 
 layout: default
 modal-id: 1
-date: 2014-07-18
+date: 2023-04-18
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: April 2023
 client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+category: Machine Learning (Unsupervised), K-Means, K-Mode, GMM, DBSCAN
+description: The task was to identify the client portfolio distribution for a consulting company with clients from various industry segments and different legal structures. It was a valuable learning experience that involved data preparation and cleansing, feature analysis, and experimenting with different clustering techniques to handle financial and categorical data. Finally, the findings were interpreted by visualizing the clusters. 
 
 ---
