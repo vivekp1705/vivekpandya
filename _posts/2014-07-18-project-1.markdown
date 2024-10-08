@@ -8,7 +8,7 @@ img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2023
-client: Start Bootstrap
+link: Cluster Analysis
 category: Machine Learning (Unsupervised), K-Means, K-Mode, GMM, DBSCAN
 description: The task was to identify the client portfolio distribution for a consulting company with clients from various industry segments and different legal structures. It was a valuable learning experience that involved data preparation and cleansing, feature analysis, and experimenting with different clustering techniques to handle financial and categorical data. Finally, the findings were interpreted by visualizing the clusters. 
 
