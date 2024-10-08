@@ -1,6 +1,6 @@
 ---
 title: Friends Text Analysis
-subtitle: Natural Language Processing of the script of friends, tv series
+subtitle: Natural Language Processing
 layout: default
 modal-id: 2
 date: 2023-04-18
