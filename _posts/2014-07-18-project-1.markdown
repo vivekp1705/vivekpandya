@@ -1,6 +1,6 @@
 ---
 title: Clustering Analysis
-subtitle: Visualized the client portfolio of a consulting company 
+subtitle: Unsupervised Machine Learning
 layout: default
 modal-id: 1
 date: 2023-04-18
