@@ -1,5 +1,5 @@
 ---
-title: NewYork CIty Film Permit Analysis
+title: Film Permit Analysis
 subtitle: Data Visualisation/Analysis
 layout: default
 modal-id: 6

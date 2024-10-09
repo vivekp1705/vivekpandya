@@ -1,5 +1,5 @@
 ---
-title: Effects of 4-day workweek on employee turnover
+title: Effects of 4-day workweek
 subtitle: Data Science Master Thesis 
 layout: default
 modal-id: 1

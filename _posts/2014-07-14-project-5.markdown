@@ -1,5 +1,5 @@
 ---
-title: Identifying Labour Market Skil Imbalance in OECD Countries
+title: Labour Market Skil Imbalance
 subtitle: Predictive & Statistical Analytics
 layout: default
 modal-id: 5
