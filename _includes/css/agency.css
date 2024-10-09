@@ -350,8 +350,8 @@ aside.clients img {
 }
 
 .logo-sm {
-    max-width: 50px; /* Adjust this value to make logos smaller */
-    max-height: 40px; /* Adjust the height as needed */
+    max-width: 30px; /* Adjust this value to make logos smaller */
+    max-height: 20px; /* Adjust the height as needed */
 }
     
 .service-heading {
