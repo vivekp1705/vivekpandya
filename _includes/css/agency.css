@@ -339,6 +339,10 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
+aside.clients img {
+    margin: 50px auto;
+}
+
 @media(min-width:768px) {
     section {
         padding: 150px 0;
@@ -646,10 +650,6 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
-}
-
-aside.clients img {
-    margin: 50px auto;
 }
 
 section#contact {
