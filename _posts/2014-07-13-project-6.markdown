@@ -1,15 +1,15 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: NewYork CIty Film Permit Analysis
+subtitle: Data Visualisation/Analysis
 layout: default
 modal-id: 6
-date: 2014-07-15
+date: 2022-11-09
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: November 2022
 client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+category: Data Analysis, ggplot, plotly, Rshiny
+description: This was one of the earliest projects worked on which involved end to end architecture. However, the entire project was executed using R. Data was injested through an api call, cleansed in R and then visualised using ggplot and tidyverse. The shiny app provides a visual insight to the film permit issued over the years in the city of New York. 
 
 ---

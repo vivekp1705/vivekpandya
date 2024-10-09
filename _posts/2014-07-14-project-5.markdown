@@ -1,15 +1,15 @@
 ---
-title: Startup Framework
-subtitle: Website Design
+title: Identifying Labour Market Skil Imbalance in OECD Countries
+subtitle: Predictive & Statistical Analytics
 layout: default
 modal-id: 5
-date: 2014-07-14
+date: 2023-03-14
 img: startup-framework.png
 thumbnail: startup-framework-thumbnail.png
 alt: image-alt
-project-date: April 2014
+project-date: March 2023
 client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+category: Statistical Analysis, Data Analysis, Predictive Analytics
+description: A dynamic dashboard built using R-Shiny conducts a statistical analysis on labour market skill imbalance in the OECD countries. The dashboard was built using the data available from the OECD for the year 2023. Dashboard helps in identifying the skill sets that are in demand and the labour markets where the skill set is either available or unavailable. 
 
 ---

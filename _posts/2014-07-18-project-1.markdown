@@ -1,15 +1,15 @@
 ---
-title: Clustering Analysis
-subtitle: Unsupervised Machine Learning
+title: Effects of 4-day workweek on employee turnover
+subtitle: Data Science Master Thesis 
 layout: default
 modal-id: 1
-date: 2023-04-18
+date: 2023-06-05
 img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
-project-date: April 2023
-cluster: Cluster Analysis
-category: Machine Learning (Unsupervised), K-Means, K-Mode, GMM, DBSCAN
-description: The task was to identify the client portfolio distribution for a consulting company with clients from various industry segments and different legal structures. It was a valuable learning experience that involved data preparation and cleansing, feature analysis, and experimenting with different clustering techniques to handle financial and categorical data. Finally, the findings were interpreted by visualizing the clusters. 
+project-date: June 2023
+cluster: Academic Thesis
+category: Research Design, Social Experiment Design, Data Science
+description: The study focuses on the effects of a 4-day workweek on employee turnover intent, considering factors such as mental health awareness, technological advancements, and employee perceptions. The research aims to test the hypothesis that a 4-day workweek increases turnover and whether male employees prefer it over a 5-day week. An Otree-based web application, which showed that a 4-day workweek did not increase turnover overall, was used to collect data. However, male participants expressed a preference for a shorter workweek, which correlated with an increased turnover tendency. 
 
 ---
