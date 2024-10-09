@@ -286,7 +286,7 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 22px;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 22px !important;
+    font-size: 18px !important;
     font-style: italic;
     line-height: 25px !important;
 }
@@ -303,7 +303,7 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 200;
     line-height: 50px;
 }
@@ -321,7 +321,7 @@ section {
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
-    font-size: 40px;
+    font-size: 32px;
 }
 
 section h3.section-subheading {
@@ -340,7 +340,7 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin: 15px 0;
+    margin: 25px 0;
     text-transform: none;
 }
 
@@ -379,7 +379,7 @@ section h3.section-subheading {
     height: 20px;
     margin-top: -12px;
     text-align: center;
-    font-size: 20px;
+    font-size: 16px;
     color: #fff;
 }
 
