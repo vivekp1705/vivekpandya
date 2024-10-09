@@ -346,12 +346,12 @@ section h3.section-subheading {
 }
 
 aside.clients img {
-    margin: 20px auto;
+    margin: 10px auto;
 }
 
 .logo-sm {
-    max-width: 20px; /* Adjust this value to make logos smaller */
-    max-height: 10px; /* Adjust the height as needed */
+    max-width: 50px; /* Adjust this value to make logos smaller */
+    max-height: 40px; /* Adjust the height as needed */
 }
     
 .service-heading {
