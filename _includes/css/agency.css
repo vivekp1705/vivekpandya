@@ -284,7 +284,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 22px;
     font-family: {{ site.data.template.font.primary }};
     font-size: 22px !important;
     font-style: italic;
@@ -292,10 +292,10 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .tagline {
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-family: {{ site.data.template.font.primary }};
     font-size: 22px !important;
-    font-style: italic;
+    font-style: italic !important;
     line-height: 25px !important;
 }
 
