@@ -1,4 +1,4 @@
-ct---
+---
 title: Effects of 4-day workweek
 subtitle: Data Science Master Thesis 
 layout: default
