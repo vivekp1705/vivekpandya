@@ -9,7 +9,7 @@ thumbnail: friends-thumbnail.png
 alt: image-alt
 project-date: April 2023
 category: Natural Language Processing
-link: https://example-link.com/friends
+link: https://rpubs.com/vivekpandya501/friends_text_analysis
 description: Text Analysis, Sentiment Analysis, Data Science
 details: This project involved scraping the script of Friends from HTML and XML using R, transformations, cleansing, and then performing statistical tests and analysis on the script to determine specific answers to questions. One of the key analyses was to demonstrate the hypothesis of racial content in the script. Sentiment analysis and verbosity were demonstrated in the findings.
 ---
