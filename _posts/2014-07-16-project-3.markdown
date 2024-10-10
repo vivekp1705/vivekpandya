@@ -9,7 +9,7 @@ thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2023
 subject: Cluster Analysis
-link: https://github.com/vivekp1705/projects/blob/main/cluster/GROUP_6_Chaland_Gangloff_Mainge_Pandya.pdf
+link: https://drive.google.com/file/d/1BJ2at1T2jfkwZF0PF1d7phpvwynwUVhH/view?usp=drive_link
 category: Machine Learning (Unsupervised), K-Means, K-Mode, GMM, DBSCAN
 description: The task was to identify the client portfolio distribution for a consulting company with clients from various industry segments and different legal structures. It was a valuable learning experience that involved data preparation and cleansing, feature analysis, and experimenting with different clustering techniques to handle financial and categorical data. Finally, the findings were interpreted by visualizing the clusters. 
 
