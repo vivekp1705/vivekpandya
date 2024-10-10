@@ -4,7 +4,7 @@ subtitle: Natural Language Processing
 layout: default
 modal-id: 2
 date: 2023-04-20
-img: friends.png
+img: dreams.png
 thumbnail: friends-thumbnail.png
 alt: image-alt
 project-date: April 2023
