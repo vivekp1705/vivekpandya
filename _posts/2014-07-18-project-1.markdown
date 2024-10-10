@@ -8,8 +8,8 @@ img: dreams.png
 thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: June 2023
-cluster: Academic Thesis
-category: Research Design, Social Experiment Design, Data Science
-description: The study focuses on the effects of a 4-day workweek on employee turnover intent, considering factors such as mental health awareness, technological advancements, and employee perceptions. The research aims to test the hypothesis that a 4-day workweek increases turnover and whether male employees prefer it over a 5-day week. An Otree-based web application, which showed that a 4-day workweek did not increase turnover overall, was used to collect data. However, male participants expressed a preference for a shorter workweek, which correlated with an increased turnover tendency. 
-
+category: Academic Thesis
+link: https://example-link.com
+description: Research Design, Social Experiment Design, Data Science
+details: The study focuses on the effects of a 4-day workweek on employee turnover intent, considering factors such as mental health awareness, technological advancements, and employee perceptions. The research aims to test the hypothesis that a 4-day workweek increases turnover and whether male employees prefer it over a 5-day week. An Otree-based web application, which showed that a 4-day workweek did not increase turnover overall, was used to collect data. However, male participants expressed a preference for a shorter workweek, which correlated with an increased turnover tendency.
 ---
