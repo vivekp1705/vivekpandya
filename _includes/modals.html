@@ -19,18 +19,18 @@
                         <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                         
                         <!-- Project Description -->
-                        <p>{{ post.details }}</p>
+                        <p>{{ post.description }}</p>
 
                         <!-- Project Info List -->
                         <ul class="list-inline item-details">
-                            <li>Category:
-                                <strong>{{ post.category }}</strong> <!-- Removed hyperlink here -->
+                            <li>Subject:
+                                <strong><a href="{{ post.link }}">{{ post.subject }}</strong> <!-- Removed hyperlink here -->
                             </li>
                             <li>Date:
-                                <strong>{{ post.project-date }}</strong> <!-- Removed hyperlink here -->
+                                <strong><a href="{{ post.link }}">{{ post.project-date }}</strong> <!-- Removed hyperlink here -->
                             </li>
-                            <li>Service:
-                                <strong>{{ post.description }}</strong> <!-- No hyperlink needed -->
+                            <li>Category:
+                                <strong><a href="{{ post.link }}">{{ post.category }}</strong> <!-- No hyperlink needed -->
                             </li>
                         </ul>
 
