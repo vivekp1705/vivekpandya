@@ -5,7 +5,7 @@ layout: default
 modal-id: 2
 date: 2023-04-20
 img: dreams.png
-thumbnail: friends-thumbnail.png
+thumbnail: dreams-thumbnail.png
 alt: image-alt
 project-date: April 2023
 category: Natural Language Processing
