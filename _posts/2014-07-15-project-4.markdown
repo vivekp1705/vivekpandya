@@ -8,8 +8,9 @@ img: treehouse.png
 thumbnail: treehouse-thumbnail.png
 alt: image-alt
 project-date: January 2023
-client: Financial Portfolio
-category: Automating a Data Pipeline
+link: https://github.com/vivekp1705/projects/blob/main/financial_portfolio/client_presentation.pdf
+subject: Financial Portfolio
+category: Automated Data Pipeline/BI
 description: An end-to-end product was delivered in this project, starting with fetching data through an API using Python in Azure Databricks. The data was then piped to an Azure container, followed by transformations in Alteryx. Finally, the results were deployed to a Power BI dashboard to provide actionable investment insights. This solution was presented at PwC Luxembourg, and the entire workflow was architected and executed in less than two weeks.
 
 ---
