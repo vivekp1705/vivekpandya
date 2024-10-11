@@ -2,57 +2,36 @@ remote_theme: y7kim/agency-jekyll-theme
 plugins:
   - jekyll-remote-theme
 
-
 # Site settings
 title: Vivek Pandya
 email: vivek.pandya501@gmail.com
-description: "Write an awesome description" 
+description: "Write an awesome description"
 
-# Team names, titles and social links
-people:
-- name: Kay Garland
-  pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+# Certifications, with pictures, name, and date
+certifications:
+  - name: AWS Certified Solutions Architect
+    pic: aws-cert
+    date: "2022-06-10"
+  - name: Microsoft Certified: Azure Fundamentals
+    pic: azure-cert
+    date: "2023-02-15"
+  - name: Google Cloud Professional Data Engineer
+    pic: google-cloud-cert
+    date: "2022-11-05"
+  - name: Certified Data Scientist (DASCA)
+    pic: dasca-cert
+    date: "2023-04-21"
+  - name: Tableau Desktop Specialist
+    pic: tableau-cert
+    date: "2021-09-19"
+  - name: Power BI Data Analyst Associate
+    pic: power-bi-cert
+    date: "2023-01-12"
 
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: linkedin
-      url: #
-
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# Social networks usernames
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
   - title: github
     url: http://github.com/jekyll
 
