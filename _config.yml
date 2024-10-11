@@ -10,10 +10,10 @@ description: "Write an awesome description"
 # Certifications, with pictures, name, and date
 certifications:
   - name: Microsoft Certified: Azure Fundamentals AZ 900
-    pic: az900-cert
+    pic: azure
     date: "2023-06-10"
   - name: Microsoft Certified: Azure AI Fundamentals
-    pic: ai-cert
+    pic: ai
     date: "2023-07-27"
   - name: Snowflake Warehousing Fundamentals
     pic: snowflake
