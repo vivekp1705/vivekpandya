@@ -5,7 +5,7 @@ layout: default
 modal-id: 3
 date: 2023-04-18
 img: cluster.png
-thumbnail: dreams-thumbnail.png
+thumbnail: cluster-thumbnail.png
 alt: image-alt
 project-date: April 2023
 subject: Cluster Analysis
