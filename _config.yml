@@ -1,4 +1,4 @@
-remote_theme: y7kim/agency-jekyll-theme
+remote_theme: "y7kim/agency-jekyll-theme"
 plugins:
   - jekyll-remote-theme
 
@@ -9,30 +9,30 @@ description: "Write an awesome description"
 
 # Certifications, with pictures, name, and date
 certifications:
-  - name: Microsoft Certified: Azure Fundamentals AZ 900
-    pic: azure
+  - name: "Microsoft Certified: Azure Fundamentals AZ 900"
+    pic: "azure"
     date: "2023-06-10"
-  - name: Microsoft Certified: Azure AI Fundamentals
-    pic: ai
+  - name: "Microsoft Certified: Azure AI Fundamentals"
+    pic: "ai"
     date: "2023-07-27"
-  - name: Snowflake Warehousing Fundamentals
-    pic: snowflake
+  - name: "Snowflake Warehousing Fundamentals"
+    pic: "snowflake"
     date: "2023-09-27"
-  - name: dbt Fundamentals
-    pic: dbt
+  - name: "dbt Fundamentals"
+    pic: "dbt"
     date: "2023-10-08"
-  - name: Bloomberg Market Fundamentals
-    pic: bloomberg
+  - name: "Bloomberg Market Fundamentals"
+    pic: "bloomberg"
     date: "2023-01-09"
-  - name: Alteryx Designer Core Certified
-    pic: alteryx
+  - name: "Alteryx Designer Core Certified"
+    pic: "alteryx"
     date: "2023-02-12"
 
 # Social networks usernames
 social:
-  - title: twitter
+  - title: "twitter"
     url: "http://twitter.com/jekyllrb"
-  - title: github
+  - title: "github"
     url: "http://github.com/jekyll"
 
 # Postal address (add as many lines as necessary)
