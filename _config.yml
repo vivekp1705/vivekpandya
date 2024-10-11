@@ -3,42 +3,42 @@ plugins:
   - jekyll-remote-theme
 
 # Site settings
-title: Vivek Pandya
-email: vivek.pandya501@gmail.com
+title: "Vivek Pandya"
+email: "vivek.pandya501@gmail.com"
 description: "Write an awesome description"
 
 # Certifications, with pictures, name, and date
 certifications:
-  - name: Microsoft Certified: Azure Fundamentals AZ 900
-    pic: az900-cert
-    date: "2023-06-10"
-  - name: Microsoft Certified: Azure AI Fundamentals
-    pic: ai-cert
-    date: "2023-07-27"
-  - name: Snowflake Warehousing Fundamentals
-    pic: snowflake
-    date: "2023-09-27"
-  - name: dbt Fundamentals
-    pic: dbt
-    date: "2023-10-08"
-  - name: Bloomberg Market Fundamentals
-    pic: bloomberg
-    date: "2023-01-09"
-  - name: Alteryx Designer Core Certified
-    pic: alteryx
-    date: "2023-02-12"
+  - name: "AWS Certified Solutions Architect"
+    pic: aws-cert
+    date: "2022-06-10"
+  - name: "Microsoft Certified: Azure Fundamentals"
+    pic: azure-cert
+    date: "2023-02-15"
+  - name: "Google Cloud Professional Data Engineer"
+    pic: google-cloud-cert
+    date: "2022-11-05"
+  - name: "Certified Data Scientist (DASCA)"
+    pic: dasca-cert
+    date: "2023-04-21"
+  - name: "Tableau Desktop Specialist"
+    pic: tableau-cert
+    date: "2021-09-19"
+  - name: "Power BI Data Analyst Associate"
+    pic: power-bi-cert
+    date: "2023-01-12"
 
 # Social networks usernames
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: "http://twitter.com/jekyllrb"
   - title: github
-    url: http://github.com/jekyll
+    url: "http://github.com/jekyll"
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: "3481 Melrose Place"
+  - line: "Beverly Hills, CA 90210"
 
 # Build settings
 markdown: kramdown
