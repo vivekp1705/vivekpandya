@@ -4,8 +4,8 @@ subtitle: Data Visualisation/Analysis
 layout: default
 modal-id: 6
 date: 2022-11-09
-img: roundicons.png
-thumbnail: roundicons-thumbnail.png
+img: film_permit-thumbnail.jpg
+thumbnail: film_permit-thumbnail.jpg
 alt: image-alt
 project-date: November 2022
 client: Start Bootstrap
