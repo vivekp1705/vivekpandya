@@ -1,5 +1,5 @@
 ---
-title: Labour Market Skil Imbalance
+title: Labour Market Skill Imbalance
 subtitle: Predictive & Statistical Analytics
 layout: default
 modal-id: 5
