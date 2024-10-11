@@ -5,7 +5,7 @@ layout: default
 modal-id: 1
 date: 2023-06-05
 img: thesis.png
-thumbnail: thesis-thumbnail.png
+thumbnail: thesis-thumbnail.jpg
 alt: image-alt
 project-date: June 2023
 subject: Academic Thesis
