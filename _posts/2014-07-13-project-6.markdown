@@ -8,7 +8,8 @@ img: film_permit-thumbnail.jpg
 thumbnail: film_permit-thumbnail.jpg
 alt: image-alt
 project-date: November 2022
-client: Start Bootstrap
+subject: Data Visualization
+link: https://rpubs.com/vivekpandya501/996029
 category: Data Analysis, ggplot, plotly, Rshiny
 description: This was one of the earliest projects worked on which involved end to end architecture. However, the entire project was executed using R. Data was injested through an api call, cleansed in R and then visualised using ggplot and tidyverse. The shiny app provides a visual insight to the film permit issued over the years in the city of New York. 
 
