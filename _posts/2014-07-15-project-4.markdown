@@ -4,8 +4,8 @@ subtitle: Architecting a Data Pipeline for Business Intelligence
 layout: default
 modal-id: 4
 date: 2023-01-15
-img: treehouse.png
-thumbnail: treehouse-thumbnail.png
+img: dashboard-thumbnail.jpg
+thumbnail: dashboard-thumbnail.jpg
 alt: image-alt
 project-date: January 2023
 link: https://drive.google.com/file/d/1ikiLuiaNeTRxQKLTGwPLCOaN-PPCt9Ri/view?usp=drive_link
