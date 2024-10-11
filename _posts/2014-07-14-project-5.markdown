@@ -8,7 +8,8 @@ img: skill-thumbnail.com.jpg
 thumbnail: skill-thumbnail.com.jpg
 alt: image-alt
 project-date: March 2023
-client: Start Bootstrap
+subject: Statistical Analysis
+link: https://vivekp.shinyapps.io/shinyassignment/
 category: Statistical Analysis, Data Analysis, Predictive Analytics
 description: A dynamic dashboard built using R-Shiny conducts a statistical analysis on labour market skill imbalance in the OECD countries. The dashboard was built using the data available from the OECD for the year 2023. Dashboard helps in identifying the skill sets that are in demand and the labour markets where the skill set is either available or unavailable. 
 
