@@ -4,8 +4,8 @@ subtitle: Predictive & Statistical Analytics
 layout: default
 modal-id: 5
 date: 2023-03-14
-img: startup-framework.png
-thumbnail: startup-framework-thumbnail.png
+img: skill-thumbnail.com.jpg
+thumbnail: skill-thumbnail.com.jpg
 alt: image-alt
 project-date: March 2023
 client: Start Bootstrap
