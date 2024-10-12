@@ -745,6 +745,10 @@ section#contact .form-group textarea {
     padding: 20px;
 }
 
+section#contact .link {
+    margin-bottom: 20px; /* Spacing between links */
+}
+
 section#contact .form-group input.form-control {
     height: auto;
 }
@@ -788,6 +792,32 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
+}
+
+.button {
+    background-color: #f39c12; /* Button color */
+    color: #fff; /* Button text color */
+    padding: 10px 20px; /* Button padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    display: inline-block; /* Make button inline-block */
+    margin: 10px 0; /* Spacing around the button */
+}
+
+.button:hover {
+    background-color: #e67e22; /* Button hover color */
+}
+
+.icon {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.feedback-form {
+    display: inline-block; /* Center the form */
+}
+
+.footer-link {
+    color: #f39c12; /* Footer link color */
 }
 
 footer {
