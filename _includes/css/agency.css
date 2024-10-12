@@ -642,13 +642,47 @@ aside.clients img {
     text-align: center;
 }
 
-.team-member img {
-    width: 200px; /* Ensure uniform width */
-    height: 200px; /* Ensure uniform height */
-    object-fit: contain; /* Contain image to prevent distortion */
-    margin-bottom: 20px;
-    margin: 0 auto;
-    border: 7px solid #fff;
+.cert-link {
+    position: relative;
+    display: inline-block;
+}
+
+.cert-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.cert-link:hover .cert-image {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 50%;
+}
+
+.cert-link:hover .overlay {
+    opacity: 1; /* Show overlay on hover */
+}
+
+.text {
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .team-member h4 {

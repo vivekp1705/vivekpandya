@@ -12,21 +12,27 @@ certifications:
   - name: "Microsoft Certified: Azure Fundamentals AZ 900"
     pic: azure
     date: "2023-06-10"
+    validation_url: https://www.credly.com/badges/e73b9241-8ebe-4f62-a7ef-74f6abc961f1/linked_in_profile
   - name: "Microsoft Certified: Azure AI Fundamentals"
     pic: ai
     date: "2023-07-27"
+    validation_url: https://www.credly.com/badges/e73b9241-8ebe-4f62-a7ef-74f6abc961f1/linked_in_profile
   - name: "Snowflake Warehousing Fundamentals"
     pic: snowflake
     date: "2023-09-27"
+    validation_url: https://www.credly.com/badges/e73b9241-8ebe-4f62-a7ef-74f6abc961f1/linked_in_profile
   - name: "dbt Fundamentals"
     pic: dbt
     date: "2023-10-08"
+    validation_url: https://www.credly.com/badges/e73b9241-8ebe-4f62-a7ef-74f6abc961f1/linked_in_profile
   - name: "Bloomberg Market Fundamentals"
     pic: bloomberg
     date: "2023-01-09"
+    validation_url: https://www.credly.com/badges/e73b9241-8ebe-4f62-a7ef-74f6abc961f1/linked_in_profile
   - name: "Alteryx Designer Core Certified"
     pic: alteryx
     date: "2023-02-12"
+    validation_url: https://www.credly.com/badges/e73b9241-8ebe-4f62-a7ef-74f6abc961f1/linked_in_profile
 
 # Social networks usernames
 social:
