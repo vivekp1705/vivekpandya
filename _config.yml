@@ -11,27 +11,27 @@ description: "Write an awesome description"
 certifications:
   - name: "Microsoft Certified: Azure Fundamentals AZ 900"
     pic: azure
-    date: "2023-06-10"
+    date: "2023-05-17"
     validation_url: https://www.credly.com/badges/e73b9241-8ebe-4f62-a7ef-74f6abc961f1/linked_in_profile
   - name: "Microsoft Certified: Azure AI Fundamentals"
     pic: ai
-    date: "2023-07-27"
+    date: "2023-06-26"
     validation_url: https://www.credly.com/badges/e5b21342-13e0-4e2f-a13b-9ba227dbb4f9/linked_in_profile
   - name: "Snowflake Warehousing Fundamentals"
     pic: snowflake
-    date: "2023-09-27"
+    date: "2023-09-11"
     validation_url: https://www.credly.com/badges/ac2b02ed-4b63-46c0-a0f9-9fb844c4d5d1/linked_in_profile
   - name: "dbt Fundamentals"
     pic: dbt
-    date: "2023-10-08"
+    date: "2023-19-20"
     validation_url: https://credentials.getdbt.com/dc1bd241-c8cb-4c61-a226-d042b723fd09
   - name: "Bloomberg Market Fundamentals"
     pic: bloomberg
-    date: "2023-01-09"
+    date: "2023-01-11"
     validation_url: https://portal.bloombergforeducation.com/certificates/fibrckybuEZUEhao2TDSY6b7
   - name: "Alteryx Designer Core Certified"
     pic: alteryx
-    date: "2023-02-12"
+    date: "2023-02-17"
     validation_url: https://www.credly.com/badges/de2bc037-6e54-4d29-b106-5d683863a8ac/linked_in_profile
 
 # Social networks usernames
