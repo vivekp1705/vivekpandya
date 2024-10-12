@@ -657,6 +657,19 @@ aside.clients img {
     margin-top: 0;
 }
 
+.cert-image {
+    width: 200px; /* Set a consistent width */
+    height: 200px; /* Set a consistent height */
+    object-fit: cover; /* Ensure the image covers the space without distortion */
+    margin-bottom: 20px; /* Adds some space below the images */
+}
+
+/* Ensure two rows with three certificates each */
+.team-member {
+    margin-bottom: 40px; /* Space between rows */
+}
+
+
 section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/map-image.png');
