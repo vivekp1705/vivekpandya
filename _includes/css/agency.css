@@ -550,6 +550,14 @@ aside.clients img {
     margin-bottom: 0;
 }
 
+.img-circle {
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Ensure height equals width for perfect circle */
+    object-fit: cover; /* This ensures the image covers the area */
+    border-radius: 50%; /* This creates the circular shape */
+    display: block; /* Ensures no inline spacing issues */
+}
+
 @media(min-width:768px) {
     .timeline:before {
         left: 50%;
