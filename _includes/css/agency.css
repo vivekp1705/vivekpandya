@@ -643,6 +643,10 @@ aside.clients img {
 }
 
 .team-member img {
+    width: 200px; /* Ensure uniform width */
+    height: 200px; /* Ensure uniform height */
+    object-fit: contain; /* Contain image to prevent distortion */
+    margin-bottom: 20px;
     margin: 0 auto;
     border: 7px solid #fff;
 }
@@ -657,17 +661,26 @@ aside.clients img {
     margin-top: 0;
 }
 
-.cert-image {
-    width: 200px; /* Set a consistent width */
-    height: 200px; /* Set a consistent height */
-    object-fit: cover; /* Ensure the image covers the space without distortion */
-    margin-bottom: 20px; /* Adds some space below the images */
+
+/* Ensure equal distribution and consistent row display */
+.team-member {
+    text-align: center; /* Center align the images and text */
+    margin-bottom: 40px; /* Adjust the spacing between rows */
 }
 
-/* Ensure two rows with three certificates each */
-.team-member {
-    margin-bottom: 40px; /* Space between rows */
+/* Control how items behave on smaller screens */
+@media (min-width: 768px) {
+    .col-sm-4 {
+        flex: 0 0 33.3333%; /* Make sure there are 3 columns per row on larger screens */
+    }
 }
+
+@media (max-width: 767px) {
+    .col-xs-6 {
+        flex: 0 0 50%; /* Ensure two columns per row on small screens */
+    }
+}
+
 
 
 section#contact {
