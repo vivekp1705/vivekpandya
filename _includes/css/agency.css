@@ -655,12 +655,12 @@ aside.clients img {
     display: inline-block;
 }
 
-.cert-image {
-    width: 200px;
+.cert-image { width: 200px;
     height: 200px;
     border-radius: 50%;
     object-fit: cover;
     transition: transform 0.3s ease;
+    overflow: hidden;
 }
 
 .cert-link:hover .cert-image {
