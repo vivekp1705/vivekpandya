@@ -459,7 +459,7 @@ aside.clients img {
 /* Timeline Panel (Text Box) */
 .timeline>li .timeline-panel {
     position: relative;
-    width: 40%; /* Reduced width to ensure more space for the image */
+    width: 40%; /* Adjust width */
     background: #fff;
     border-radius: 10px;
     padding: 20px;
@@ -467,14 +467,16 @@ aside.clients img {
     text-align: left;
     float: left;
     margin-left: 10px; /* Adjusted to avoid overlap with image */
-    margin-top: 60px; /* Increased margin-top to avoid overlap with the image */
+    margin-top: 80px; /* Increase margin to push text down */
+    z-index: 1; /* Ensure the text box is above the image */
 }
 
-/* For Inverted Timeline Panels */
+/* Inverted Timeline Panel (Text Box) */
 .timeline>li.timeline-inverted .timeline-panel {
     float: right;
-    margin-right: 10px; /* Ensure it's away from the image */
-    margin-top: 60px; /* Increased margin-top for inverted panels as well */
+    margin-right: 10px;
+    margin-top: 80px; /* Increase margin to push text down */
+    z-index: 1;
 }
 
 /* Timeline Image */
@@ -496,6 +498,7 @@ aside.clients img {
     height: 100%;
     border-radius: 50%;
     object-fit: cover;
+    z-index: 100;
 }
 
 /* Mobile Adjustments */
