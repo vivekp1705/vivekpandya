@@ -431,11 +431,11 @@ aside.clients img {
     z-index: 2;
 }
 
+/* Basic Timeline Setup */
 .timeline {
     position: relative;
     padding: 0;
     list-style: none;
-    margin-top: 50px;
 }
 
 .timeline:before {
@@ -443,40 +443,49 @@ aside.clients img {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 50%; /* Center the timeline */
+    left: 50%;
     width: 2px;
     background-color: #f1f1f1;
+    margin-left: -1px;
 }
 
+/* Timeline List Item */
 .timeline>li {
     position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
+    margin-bottom: 100px;
 }
 
+/* Timeline Panel (Text Box) */
 .timeline>li .timeline-panel {
     position: relative;
-    width: 45%;
-    padding: 0 20px;
-    text-align: left;
+    width: 40%; /* Reduced width to ensure more space for the image */
     background: #fff;
     border-radius: 10px;
+    padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    float: left;
+    margin-left: 10px; /* Adjusted to avoid overlap with image */
 }
 
+/* For Inverted Timeline Panels */
+.timeline>li.timeline-inverted .timeline-panel {
+    float: right;
+    margin-right: 10px; /* Ensure it's away from the image */
+}
+
+/* Timeline Image */
 .timeline>li .timeline-image {
-    z-index: 100;
     position: absolute;
+    top: 0;
     left: 50%;
     width: 150px;
     height: 150px;
     margin-left: -75px;
     border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    background-color: #{{ site.data.template.color.primary }};
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    border-radius: 50%;
+    background-color: #fff;
+    z-index: 100;
 }
 
 .timeline>li .timeline-image img {
@@ -486,78 +495,56 @@ aside.clients img {
     object-fit: cover;
 }
 
-.timeline>li.timeline-inverted .timeline-panel {
-    float: right;
-    text-align: left;
-    margin-right: 15%;
-}
-
-.timeline>li .timeline-heading h4 {
-    margin-top: 0;
-    color: #333;
-}
-
-.timeline>li .timeline-body>p {
-    margin-bottom: 0;
-}
-
-@media (min-width: 768px) {
-    .timeline>li {
-        margin-bottom: 100px;
-        min-height: 150px;
+/* Mobile Adjustments */
+@media (max-width: 767px) {
+    .timeline:before {
+        left: 20px;
     }
 
-.timeline>li .timeline-panel {
-    position: relative;
-    width: 44%; /* Reduce width to make room for the image */
-    padding: 20px 20px; /* Add more padding for separation */
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 30px; /* Add some margin at the top to prevent overlap */
-}
-
-.timeline>li.timeline-inverted .timeline-panel {
-    float: right;
-    margin-left: 0;
-    margin-right: 30px; /* Add some right margin to prevent overlap */
-}
-
-.timeline>li .timeline-image {
-    z-index: 100;
-    position: absolute;
-    left: 50%;
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    background-color: #{{ site.data.template.color.primary }};
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-@media(min-width: 768px) {
     .timeline>li .timeline-panel {
-        width: 40%; /* Reduce width further for larger screens */
+        width: 100%;
         padding: 20px;
-        text-align: right;
+        text-align: center;
+        float: none;
+        margin-left: 0;
     }
 
-    .timeline>li.timeline-inverted .timeline-panel {
-        text-align: left;
+    .timeline>li .timeline-image {
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
     }
 }
 
-@media(min-width: 992px) {
+/* Tablet and Desktop Adjustments */
+@media (min-width: 768px) {
     .timeline>li .timeline-panel {
-        padding: 20px 30px;
-        width: 43%;
+        width: 40%; /* Further adjust width for bigger screens */
     }
 
     .timeline>li.timeline-inverted .timeline-panel {
-        padding: 20px 30px;
+        float: right;
+        margin-right: 30px; /* Adjust margin on inverted panels */
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
+    }
+}
+
+/* Desktop Adjustments */
+@media (min-width: 992px) {
+    .timeline>li .timeline-panel {
+        width: 45%;
+    }
+
+    .timeline>li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
     }
 }
 
