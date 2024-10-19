@@ -507,56 +507,60 @@ aside.clients img {
         min-height: 150px;
     }
 
+.timeline>li .timeline-panel {
+    position: relative;
+    width: 44%; /* Reduce width to make room for the image */
+    padding: 20px 20px; /* Add more padding for separation */
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 30px; /* Add some margin at the top to prevent overlap */
+}
+
+.timeline>li.timeline-inverted .timeline-panel {
+    float: right;
+    margin-left: 0;
+    margin-right: 30px; /* Add some right margin to prevent overlap */
+}
+
+.timeline>li .timeline-image {
+    z-index: 100;
+    position: absolute;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+    border: 7px solid #f1f1f1;
+    border-radius: 100%;
+    background-color: #{{ site.data.template.color.primary }};
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(min-width: 768px) {
     .timeline>li .timeline-panel {
-        float: left;
-        width: 45%;
+        width: 40%; /* Reduce width further for larger screens */
+        padding: 20px;
         text-align: right;
     }
 
     .timeline>li.timeline-inverted .timeline-panel {
-        float: right;
         text-align: left;
     }
-
-    .timeline>li .timeline-image {
-        left: 50%;
-        margin-left: -75px;
-        width: 150px;
-        height: 150px;
-    }
 }
 
-@media (min-width: 992px) {
-    .timeline>li {
-        min-height: 170px;
-    }
-
+@media(min-width: 992px) {
     .timeline>li .timeline-panel {
         padding: 20px 30px;
+        width: 43%;
     }
 
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
+    .timeline>li.timeline-inverted .timeline-panel {
+        padding: 20px 30px;
     }
 }
 
-@media (min-width: 1200px) {
-    .timeline>li {
-        min-height: 200px;
-    }
-
-    .timeline>li .timeline-panel {
-        padding: 20px 40px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 200px;
-        height: 200px;
-        margin-left: -100px;
-    }
-}
 
 .team-member {
     margin-bottom: 50px;
