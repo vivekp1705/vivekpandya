@@ -431,12 +431,10 @@ aside.clients img {
     z-index: 2;
 }
 
-/* Basic Timeline Setup */
 .timeline {
     position: relative;
     padding: 0;
     list-style: none;
-    margin-top: 50px;
 }
 
 .timeline:before {
@@ -446,57 +444,42 @@ aside.clients img {
     bottom: 0;
     left: 50%;
     width: 2px;
-    background-color: #f1f1f1;
     margin-left: -1px;
+    background-color: #f1f1f1;
 }
 
-/* Timeline List Item */
 .timeline > li {
     position: relative;
     margin-bottom: 100px;
-    clear: both;
 }
 
-/* Timeline Panel (Text Box) */
 .timeline > li .timeline-panel {
     position: relative;
-    width: 45%;
-    background: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: left;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1;
-}
-
-/* Left-Aligned Panels */
-.timeline > li .timeline-panel {
     float: left;
-    margin-left: 0;
+    width: 45%;
+    padding: 20px;
     text-align: right;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Inverted (Right-Aligned) Timeline Panels */
 .timeline > li.timeline-inverted .timeline-panel {
     float: right;
     text-align: left;
 }
 
-/* Timeline Image (Circular Image) */
 .timeline > li .timeline-image {
     position: absolute;
-    top: 0;
     left: 50%;
     width: 150px;
     height: 150px;
     margin-left: -75px;
     border-radius: 50%;
-    background: #fff;
-    border: 7px solid #f1f1f1;
+    background: #f1f1f1;
     z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    border: 7px solid #f1f1f1;
 }
 
 .timeline > li .timeline-image img {
@@ -506,17 +489,17 @@ aside.clients img {
     object-fit: cover;
 }
 
-/* Adjustments for Mobile */
+/* Mobile adjustments */
 @media (max-width: 767px) {
     .timeline:before {
         left: 20px;
     }
 
     .timeline > li .timeline-panel {
+        float: none;
         width: 100%;
         text-align: center;
-        float: none;
-        margin-left: 0;
+        padding: 20px 20px;
     }
 
     .timeline > li .timeline-image {
@@ -527,42 +510,6 @@ aside.clients img {
     }
 }
 
-/* Adjustments for Tablet and Desktop */
-@media (min-width: 768px) {
-    .timeline > li .timeline-panel {
-        width: 40%;
-    }
-
-    .timeline > li.timeline-inverted .timeline-panel {
-        float: right;
-        text-align: left;
-    }
-
-    .timeline > li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
-    }
-}
-
-/* Desktop Adjustments */
-@media (min-width: 992px) {
-    .timeline > li .timeline-panel {
-        width: 45%;
-    }
-
-    .timeline > li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
-    }
-}
-
-
-.team-member {
-    margin-bottom: 50px;
-    text-align: center;
-}
 
 .cert-link {
     position: relative;
