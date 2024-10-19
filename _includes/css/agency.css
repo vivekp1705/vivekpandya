@@ -436,6 +436,7 @@ aside.clients img {
     position: relative;
     padding: 0;
     list-style: none;
+    margin-top: 50px;
 }
 
 .timeline:before {
@@ -446,34 +447,42 @@ aside.clients img {
     left: 50%;
     width: 2px;
     background-color: #f1f1f1;
+    margin-left: -1px;
 }
 
 /* Timeline List Item */
-.timeline > li {
+.timeline>li {
     position: relative;
     margin-bottom: 100px;
 }
 
 /* Timeline Panel (Text Box) */
-.timeline > li .timeline-panel {
+.timeline>li .timeline-panel {
     position: relative;
-    width: 45%;
+    width: 40%; /* Ensure text box width stays compact */
     background: #fff;
     border-radius: 10px;
     padding: 20px;
-    text-align: left;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     z-index: 1;
 }
 
-/* Inverted Panel (Text Box) */
-.timeline > li.timeline-inverted .timeline-panel {
+/* Left-Aligned Panels */
+.timeline>li .timeline-panel {
+    float: left;
+    text-align: right;
+    margin-left: 10px; /* Adjust margins to avoid overlap */
+}
+
+/* Inverted (Right-Aligned) Timeline Panels */
+.timeline>li.timeline-inverted .timeline-panel {
     float: right;
     text-align: left;
+    margin-right: 10px; /* Adjust margins to avoid overlap */
 }
 
 /* Timeline Image (Circular Image) */
-.timeline > li .timeline-image {
+.timeline>li .timeline-image {
     position: absolute;
     top: 0;
     left: 50%;
@@ -489,7 +498,7 @@ aside.clients img {
     align-items: center;
 }
 
-.timeline > li .timeline-image img {
+.timeline>li .timeline-image img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -502,13 +511,14 @@ aside.clients img {
         left: 20px;
     }
 
-    .timeline > li .timeline-panel {
+    .timeline>li .timeline-panel {
         width: 100%;
         text-align: center;
         float: none;
+        margin-left: 0;
     }
 
-    .timeline > li .timeline-image {
+    .timeline>li .timeline-image {
         left: 50%;
         width: 100px;
         height: 100px;
@@ -518,33 +528,35 @@ aside.clients img {
 
 /* Adjustments for Tablet and Desktop */
 @media (min-width: 768px) {
-    .timeline > li .timeline-panel {
-        width: 45%;
+    .timeline>li .timeline-panel {
+        width: 40%; /* Keep the text box width consistent */
     }
 
-    .timeline > li .timeline-image {
+    .timeline>li.timeline-inverted .timeline-panel {
+        float: right;
+        text-align: left;
+    }
+
+    .timeline>li .timeline-image {
         width: 150px;
         height: 150px;
         margin-left: -75px;
-    }
-
-    .timeline > li.timeline-inverted .timeline-panel {
-        float: right;
     }
 }
 
 /* Desktop Adjustments */
 @media (min-width: 992px) {
-    .timeline > li .timeline-panel {
+    .timeline>li .timeline-panel {
         width: 45%;
     }
 
-    .timeline > li .timeline-image {
+    .timeline>li .timeline-image {
         width: 150px;
         height: 150px;
         margin-left: -75px;
     }
 }
+
 
 
 .team-member {
