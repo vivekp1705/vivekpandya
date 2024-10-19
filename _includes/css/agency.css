@@ -436,6 +436,7 @@ aside.clients img {
     position: relative;
     padding: 0;
     list-style: none;
+    margin-top: 50px;
 }
 
 .timeline:before {
@@ -452,7 +453,7 @@ aside.clients img {
 /* Timeline List Item */
 .timeline>li {
     position: relative;
-    margin-bottom: 100px;
+    margin-bottom: 150px; /* Increased margin to give more space between items */
 }
 
 /* Timeline Panel (Text Box) */
@@ -466,12 +467,14 @@ aside.clients img {
     text-align: left;
     float: left;
     margin-left: 10px; /* Adjusted to avoid overlap with image */
+    margin-top: 60px; /* Increased margin-top to avoid overlap with the image */
 }
 
 /* For Inverted Timeline Panels */
 .timeline>li.timeline-inverted .timeline-panel {
     float: right;
     margin-right: 10px; /* Ensure it's away from the image */
+    margin-top: 60px; /* Increased margin-top for inverted panels as well */
 }
 
 /* Timeline Image */
@@ -507,6 +510,7 @@ aside.clients img {
         text-align: center;
         float: none;
         margin-left: 0;
+        margin-top: 0; /* No top margin for mobile */
     }
 
     .timeline>li .timeline-image {
