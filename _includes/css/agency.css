@@ -431,6 +431,7 @@ aside.clients img {
     z-index: 2;
 }
 
+/* Basic Timeline Setup */
 .timeline {
     position: relative;
     padding: 0;
@@ -442,192 +443,106 @@ aside.clients img {
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40px;
+    left: 50%;
     width: 2px;
-    margin-left: -1.5px;
     background-color: #f1f1f1;
 }
 
-.timeline>li {
+/* Timeline List Item */
+.timeline > li {
     position: relative;
-    margin-bottom: 50px;
-    min-height: 50px;
+    margin-bottom: 100px;
 }
 
-.timeline>li:before,
-.timeline>li:after {
-    content: " ";
-    display: table;
+/* Timeline Panel (Text Box) */
+.timeline > li .timeline-panel {
+    position: relative;
+    width: 45%;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
 }
 
-.timeline>li:after {
-    clear: both;
-}
-
-.timeline>li .timeline-panel {
+/* Inverted Panel (Text Box) */
+.timeline > li.timeline-inverted .timeline-panel {
     float: right;
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
     text-align: left;
 }
 
-.timeline>li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline>li .timeline-image {
-    z-index: 100;
+/* Timeline Image (Circular Image) */
+.timeline > li .timeline-image {
     position: absolute;
-    left: 0;
-    width: 80px;
-    height: 80px;
-    margin-left: 0;
+    top: 0;
+    left: 50%;
+    width: 150px;
+    height: 150px;
+    margin-left: -75px;
+    border-radius: 50%;
+    background: #fff;
     border: 7px solid #f1f1f1;
-    border-radius: 100%;
-    text-align: center;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
+.timeline > li .timeline-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
-.timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
-
-.timeline>li:last-child {
-    margin-bottom: 0;
-}
-
-.timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
-
-.timeline .timeline-heading h4.subheading {
-    text-transform: none;
-}
-
-.timeline .timeline-body>p,
-.timeline .timeline-body>ul {
-    margin-bottom: 0;
-}
-
-@media(min-width:768px) {
+/* Adjustments for Mobile */
+@media (max-width: 767px) {
     .timeline:before {
-        left: 50%;
+        left: 20px;
     }
 
-    .timeline>li {
-        margin-bottom: 100px;
-        min-height: 100px;
+    .timeline > li .timeline-panel {
+        width: 100%;
+        text-align: center;
+        float: none;
     }
 
-    .timeline>li .timeline-panel {
-        float: left;
-        width: 41%;
-        padding: 0 20px 20px 30px;
-        text-align: right;
-    }
-
-    .timeline>li .timeline-image {
+    .timeline > li .timeline-image {
         left: 50%;
         width: 100px;
         height: 100px;
         margin-left: -50px;
     }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 16px;
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-        padding: 0 30px 20px 20px;
-        text-align: left;
-    }
 }
 
-@media(min-width:992px) {
-    .timeline>li {
-        min-height: 150px;
+/* Adjustments for Tablet and Desktop */
+@media (min-width: 768px) {
+    .timeline > li .timeline-panel {
+        width: 45%;
     }
 
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px;
-    }
-
-    .timeline>li .timeline-image {
+    .timeline > li .timeline-image {
         width: 150px;
         height: 150px;
         margin-left: -75px;
     }
 
-    .timeline>li .timeline-image h4 {
-        margin-top: 30px;
-        font-size: 18px;
-        line-height: 26px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 20px 20px;
+    .timeline > li.timeline-inverted .timeline-panel {
+        float: right;
     }
 }
 
-@media(min-width:1200px) {
-    .timeline>li {
-        min-height: 170px;
+/* Desktop Adjustments */
+@media (min-width: 992px) {
+    .timeline > li .timeline-panel {
+        width: 45%;
     }
 
-    .timeline>li .timeline-panel {
-        padding: 0 20px 20px 100px;
-    }
-
-    .timeline>li .timeline-image {
-        width: 170px;
-        height: 170px;
-        margin-left: -85px;
-    }
-
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px;
-    }
-
-    .timeline>li.timeline-inverted>.timeline-panel {
-        padding: 0 100px 20px 20px;
+    .timeline > li .timeline-image {
+        width: 150px;
+        height: 150px;
+        margin-left: -75px;
     }
 }
 
