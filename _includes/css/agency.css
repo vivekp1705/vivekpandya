@@ -992,6 +992,25 @@ header {
     }
 }
 
+@media (min-width: 768px) {
+    #portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; /* Center the grid */
+    }
+
+    #portfolio .portfolio-item {
+        width: 30%; /* Ensure each item takes about 1/3 of the row */
+        margin: 15px; /* Space between items */
+        display: block;
+    }
+
+    #portfolio .portfolio-item img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 /* Portfolio responsiveness */
 #portfolio .portfolio-item {
     margin-bottom: 30px;
@@ -1002,6 +1021,7 @@ header {
         max-width: 100%;
         margin-bottom: 20px;
     }
+
 
     #portfolio .portfolio-item .portfolio-link {
         width: 100%;
@@ -1030,24 +1050,23 @@ header {
     }
 }
 
-/* Team member image responsiveness */
-.team-member img {
-    max-width: 100%; /* Ensure team images scale properly */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%;
-}
 
+/* Team member images in a vertical straight line on mobile */
 @media (max-width: 767px) {
+    .team-member {
+        text-align: center;
+        margin-bottom: 40px;
+    }
     .team-member img {
-        max-width: 80%; /* Make team images smaller on mobile */
-        margin: 0 auto; /* Center team images on mobile */
+        max-width: 80%; /* Scale down on mobile */
+        margin: 0 auto; /* Center the image */
         display: block;
     }
 }
 
 @media (min-width: 768px) {
     .team-member img {
-        max-width: 150px; /* Set max size for larger screens */
+        max-width: 150px;
         height: auto;
         margin: 0;
     }
@@ -1083,25 +1102,22 @@ header {
 }
 
 @media (max-width: 767px) {
-    .logo-sm {
-        max-width: 30px;
-        max-height: 30px;
-        display: inline-block; /* Keep logos in a horizontal line */
-    }
-
-    /* Ensure logos stay in a row */
     .logo-row {
         display: flex;
-        justify-content: space-around;
+        flex-wrap: wrap;
+        justify-content: center; /* Center the logos */
         align-items: center;
-        flex-wrap: wrap; /* Allow wrapping if needed */
+    }
+    .logo-sm {
+        max-width: 30px;
+        margin: 5px;
     }
 }
 
 @media (min-width: 768px) {
     .logo-sm {
         max-width: 40px;
-        max-height: 40px;
+        margin: 10px;
     }
 }
 
