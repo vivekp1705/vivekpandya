@@ -738,6 +738,15 @@ section#contact .end-text .end-lead-in {
     line-height: 25px !important;
 }
 
+section#contact .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 50px;
+}
+
 
 footer {
     padding: 25px 0;
@@ -882,4 +891,217 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+/* Ensure images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure text and heading sizes are responsive */
+body {
+    overflow-x: hidden;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #{{ site.data.template.color.secondary-dark }};
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+/* Responsive typography using relative units */
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.75rem; }
+h4 { font-size: 1.5rem; }
+h5 { font-size: 1.25rem; }
+h6 { font-size: 1rem; }
+
+p {
+    font-size: 1rem;
+    line-height: 1.75;
+}
+
+/* Ensure buttons and containers are responsive */
+.btn-xl {
+    padding: 15px 30px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .btn-xl {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* Ensure navbar is responsive */
+.navbar-default {
+    border-color: transparent;
+    background-color: #222;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 1.5rem;
+    color: #{{ site.data.template.color.primary }};
+}
+
+/* Collapse the navbar on smaller screens */
+@media (max-width: 767px) {
+    .navbar-default {
+        padding: 10px 0;
+        background-color: #222;
+    }
+    .navbar-default .navbar-brand {
+        font-size: 1.2rem;
+    }
+    .navbar-default .navbar-collapse {
+        display: none;
+    }
+    .navbar-default .navbar-toggle {
+        display: block;
+    }
+}
+
+/* Responsive header text */
+header .intro-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+    header .intro-text {
+        padding-top: 50px;
+        padding-bottom: 25px;
+        font-size: 1.25rem;
+    }
+}
+
+/* Responsive sections */
+section {
+    padding: 80px 0;
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 50px 0;
+    }
+}
+
+/* Responsive portfolio items */
+#portfolio .portfolio-item {
+    margin-bottom: 30px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+    max-width: 100%;
+}
+
+/* Responsive timeline */
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline>li {
+    position: relative;
+    margin-bottom: 50px;
+    min-height: 100px;
+}
+
+@media (max-width: 767px) {
+    .timeline>li {
+        margin-bottom: 30px;
+        min-height: 70px;
+    }
+    .timeline>li .timeline-image {
+        width: 60px;
+        height: 60px;
+        margin-left: -30px;
+    }
+    .timeline>li .timeline-panel {
+        padding: 0 20px;
+        width: 100%;
+    }
+}
+
+/* Responsive team members */
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+    .team-member {
+        margin-bottom: 20px;
+    }
+}
+
+/* Responsive contact section */
+section#contact {
+    text-align: center;
+    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-size: cover;
+    padding: 50px 20px;
+}
+
+@media (max-width: 767px) {
+    section#contact {
+        padding: 30px 10px;
+    }
+}
+
+/* Footer responsive styles */
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    font-size: 0.875rem;
+}
+
+@media (max-width: 767px) {
+    footer {
+        padding: 15px 0;
+    }
+}
+
+/* Make sure buttons are responsive */
+.btn-primary, .btn-xl {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+}
+
+/* Ensure the certification images are responsive */
+.cert-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Responsive client logo scaling */
+.logo-sm {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* Additional media queries for very small screens */
+@media (max-width: 576px) {
+    .logo-sm {
+        max-width: 80px;
+        max-height: 80px;
+    }
 }
