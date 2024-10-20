@@ -1030,6 +1030,29 @@ header {
     }
 }
 
+/* Team member image responsiveness */
+.team-member img {
+    max-width: 100%; /* Ensure team images scale properly */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+    .team-member img {
+        max-width: 80%; /* Make team images smaller on mobile */
+        margin: 0 auto; /* Center team images on mobile */
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .team-member img {
+        max-width: 150px; /* Set max size for larger screens */
+        height: auto;
+        margin: 0;
+    }
+}
+
 /* Timeline responsiveness */
 .timeline {
     padding: 0;
@@ -1059,11 +1082,19 @@ header {
     text-align: center; /* Center the portfolio items */
 }
 
-/* Adjust logo size for mobile */
 @media (max-width: 767px) {
     .logo-sm {
         max-width: 30px;
         max-height: 30px;
+        display: inline-block; /* Keep logos in a horizontal line */
+    }
+
+    /* Ensure logos stay in a row */
+    .logo-row {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap; /* Allow wrapping if needed */
     }
 }
 
@@ -1090,6 +1121,7 @@ section#contact {
         font-size: 1rem;
     }
 }
+
 
 /* Button adjustments */
 .btn-xl {
