@@ -738,7 +738,7 @@ section#contact .end-text .end-lead-in {
     line-height: 25px !important;
 }
 
-section#contact .intro-text .intro-heading {
+section#contact .end-text .end-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -747,6 +747,30 @@ section#contact .intro-text .intro-heading {
     line-height: 50px;
 }
 
+section#contact p.lead {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.contact-icons {
+    margin-top: 20px;
+}
+
+.contact-icons a {
+    margin: 0 15px;
+    color: #f1c40f; /* Set icon color */
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: #fff; /* Icon hover color */
+}
+
+.contact-icons i {
+    font-size: 2.5rem;
+}
 
 footer {
     padding: 25px 0;
