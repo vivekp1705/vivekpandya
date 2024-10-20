@@ -1000,10 +1000,33 @@ header {
 @media (max-width: 767px) {
     #portfolio .portfolio-item {
         max-width: 100%;
+        margin-bottom: 20px;
     }
 
     #portfolio .portfolio-item .portfolio-link {
         width: 100%;
+    }
+}
+
+#portfolio .portfolio-item img {
+        max-width: 80%; /* Make images smaller on mobile */
+        height: auto; /* Maintain aspect ratio */
+        margin: 0 auto; /* Center the images */
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    #portfolio .portfolio-item {
+        width: 30%;
+        display: inline-block;
+        margin: 0 1%;
+        vertical-align: top;
+    }
+
+    #portfolio .portfolio-item img {
+        max-width: 100%;
+        height: auto;
     }
 }
 
@@ -1028,6 +1051,26 @@ header {
     .timeline>li .timeline-panel {
         padding-left: 20px;
         text-align: left;
+    }
+}
+
+/* Ensure all portfolio items are aligned properly */
+#portfolio {
+    text-align: center; /* Center the portfolio items */
+}
+
+/* Adjust logo size for mobile */
+@media (max-width: 767px) {
+    .logo-sm {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-sm {
+        max-width: 40px;
+        max-height: 40px;
     }
 }
 
