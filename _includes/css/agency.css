@@ -828,28 +828,53 @@ section#contact .text-danger {
     display: inline-block; /* Center the form */
 }
 
-.footer-link {
-    color: #f39c12; /* Footer link color */
-}
-
 footer {
-    padding: 25px 0;
     text-align: center;
+    color: #fff;
+    background-attachment: scroll;
+    background-image: url('{{ site.baseurl }}/img/map-image.png');
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
+footer .text-container {
+            background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+footer .end-text {
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-footer ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
+footer .end-text .end-lead-in {
+    margin-bottom: 22px;
     font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
+    font-size: 18px !important;
+    font-style: italic;
+    line-height: 25px !important;
+}
+
+footer .intro-text .tagline {
+    margin-bottom: 25px;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 22px !important;
+    font-style: italic !important;
+    line-height: 25px !important;
+}
+
+footer .intro-text .intro-heading {
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 32px;
+    font-weight: 200;
+    line-height: 50px;
 }
 
 ul.social-buttons {
