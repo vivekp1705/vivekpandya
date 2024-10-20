@@ -992,61 +992,38 @@ header {
     }
 }
 
+/* Portfolio adjustments for desktop - ensure a 3x2 grid */
 @media (min-width: 768px) {
     #portfolio {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center; /* Center the grid */
+        justify-content: space-between; /* Add space between items */
+        max-width: 1000px; /* Set a maximum width for the portfolio section */
+        margin: 0 auto; /* Center the grid */
     }
 
     #portfolio .portfolio-item {
         width: 30%; /* Ensure each item takes about 1/3 of the row */
-        margin: 15px; /* Space between items */
+        margin-bottom: 20px; /* Adjust the spacing between items */
+    }
+}
+
+/* Portfolio adjustments for mobile - stacked vertically */
+@media (max-width: 767px) {
+    #portfolio {
         display: block;
     }
 
-    #portfolio .portfolio-item img {
-        max-width: 100%;
-        height: auto;
-    }
-}
-
-/* Portfolio responsiveness */
-#portfolio .portfolio-item {
-    margin-bottom: 30px;
-}
-
-@media (max-width: 767px) {
     #portfolio .portfolio-item {
-        max-width: 100%;
+        width: 100%;
         margin-bottom: 20px;
     }
 
-
-    #portfolio .portfolio-item .portfolio-link {
-        width: 100%;
-    }
-}
-
-#portfolio .portfolio-item img {
-        max-width: 80%; /* Make images smaller on mobile */
-        height: auto; /* Maintain aspect ratio */
+    #portfolio .portfolio-item img {
+        max-width: 80%; /* Reduce image size on mobile */
+        height: auto;
         margin: 0 auto; /* Center the images */
         display: block;
-    }
-}
-
-@media (min-width: 768px) {
-    #portfolio .portfolio-item {
-        width: 30%;
-        display: inline-block;
-        margin: 0 1%;
-        vertical-align: top;
-    }
-
-    #portfolio .portfolio-item img {
-        max-width: 100%;
-        height: auto;
     }
 }
 
@@ -1069,6 +1046,39 @@ header {
         max-width: 150px;
         height: auto;
         margin: 0;
+    }
+}
+
+/* Certification Logos adjustments */
+.team-member {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Distribute the logos evenly */
+    max-width: 1000px; /* Set a maximum width for the section */
+    margin: 0 auto; /* Center the grid */
+}
+
+..team-member {
+    flex: 1 0 30%; /* Each certification logo takes 30% of the row */
+    text-align: center;
+    margin-bottom: 20px; /* Add space between logos */
+}
+
+..team-member img {
+    max-width: 80px; /* Adjust logo size */
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Ensure proper layout for small screens */
+@media (max-width: 767px) {
+    ..team-member .certification {
+        flex: 1 0 45%; /* Stack in two columns on mobile */
+        margin-bottom: 20px;
+    }
+
+    ..team-member img {
+        max-width: 60px; /* Smaller logos on mobile */
     }
 }
 
