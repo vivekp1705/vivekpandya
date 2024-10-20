@@ -705,130 +705,7 @@ aside.clients img {
 }
 
 
-
 section#contact {
-    background-color: #222;
-    background-image: url('{{ site.baseurl }}/img/map-image.png');
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-section#contact {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-{
-  font-size: 16px;
-  color: #ffffff;
-}
-
-.section-title {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
-
-.section-text {
-  font-size: 18px;
-  line-height: 1.6;
-  margin-bottom: 25px;
-}
-
-a {
-  color: #f1c40f; /* Gold or yellow for better contrast */
-  text-decoration: none;
-}
-
-
-section#contact .section-heading {
-    color: #fff;
-}
-
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-
-section#contact .link {
-    margin-bottom: 20px; /* Spacing between links */
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: #{{ site.data.template.color.primary }};
-    box-shadow: none;
-}
-
-section#contact::-webkit-input-placeholder {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-moz-placeholder {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact::-moz-placeholder {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact:-ms-input-placeholder {
-    text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
-    font-weight: 700;
-    color: #bbb;
-}
-
-section#contact .text-danger {
-    color: #e74c3c;
-}
-
-.button {
-    background-color: #f39c12; /* Button color */
-    color: #fff; /* Button text color */
-    padding: 10px 20px; /* Button padding */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px; /* Rounded corners */
-    display: inline-block; /* Make button inline-block */
-    margin: 10px 0; /* Spacing around the button */
-}
-
-.button:hover {
-    background-color: #e67e22; /* Button hover color */
-}
-
-.icon {
-    margin-right: 8px; /* Space between icon and text */
-}
-
-.feedback-form {
-    display: inline-block; /* Center the form */
-}
-
-footer {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -841,18 +718,18 @@ footer {
     -o-background-size: cover;
 }
 
-footer .text-container {
+section#contact .text-container {
             background-color: rgba(0, 0, 0, 0.5); /* Black background with 50% transparency */
             padding: 20px;
             border-radius: 10px;
         }
 
-footer .end-text {
+section#contact .end-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-footer .end-text .end-lead-in {
+section#contact .end-text .end-lead-in {
     margin-bottom: 22px;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px !important;
@@ -860,7 +737,7 @@ footer .end-text .end-lead-in {
     line-height: 25px !important;
 }
 
-footer .intro-text .tagline {
+section#contact .intro-text .tagline {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.primary }};
     font-size: 22px !important;
@@ -868,13 +745,33 @@ footer .intro-text .tagline {
     line-height: 25px !important;
 }
 
-footer .intro-text .intro-heading {
+section#contact .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 32px;
     font-weight: 200;
     line-height: 50px;
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    line-height: 40px;
 }
 
 ul.social-buttons {
